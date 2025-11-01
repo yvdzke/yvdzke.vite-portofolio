@@ -51,3 +51,11 @@
     opacity: 1;
   }
 }
+
+.dialog h2 span {
+  color: #5fc0a1;
+}
+
+.dialog p span {
+  color: #fc0202;
+}

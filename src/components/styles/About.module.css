@@ -25,14 +25,14 @@
   top: 12px;
   right: 16px;
   background: transparent;
-  color: #00bcd4;
+  color: #ffffff;
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
 }
 
 .modal span {
-  color: #00bcd4;
+  color: #ffffff;
   font-weight: bold;
 }
 
