@@ -13,10 +13,10 @@ function DialogBox({ isOpen, onClose, type }) {
 
         {type === "home" && (
           <>
-            <h2>Welcome Home</h2>
+            <h2>Hi, Welcome to Home</h2>
             <p>
-              Ini adalah bagian Home. Di sini kamu bisa menampilkan deskripsi
-              singkat tentang dirimu, atau pengantar ke website kamu.
+              Mau kemana lagi nih? Coba klik tombol about di Paragraf Home untuk
+              liat about me hehehe thanks.
             </p>
           </>
         )}

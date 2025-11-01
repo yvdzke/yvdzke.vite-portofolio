@@ -14,7 +14,7 @@ function Home() {
           height="315"
           src="https://www.youtube.com/embed/7JhjnxhO7YY?si=W_T76qv11D3-iQEF"
           title="YouTube video player"
-          frameborder="0"
+          frameborder="2"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
