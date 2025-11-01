@@ -1,7 +1,33 @@
-.footer {
-  background: #101820;
+.footer-container {
+  display: flex; /* jadikan flex container */
+  align-items: center; /* center vertical */
+  padding: 20px;
+  background-color: #101820;
   color: #ccc;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 0.9rem;
+  border-top: 1px solid #ffffff;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-left: auto; /* dorong ke kanan */
+}
+
+.social-links li {
+  cursor: pointer;
+}
+
+.social-links li {
+  cursor: pointer;
+  transition: transform 0.5s ease; /* animasi smooth */
+}
+
+.social-links li:hover {
+  transform: rotate(360deg); /* putar 360 derajat saat hover */
+}
+
+.social-links li a {
+  color: #ccc;
+  text-decoration: none;
 }
