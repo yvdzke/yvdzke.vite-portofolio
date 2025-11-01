@@ -3,8 +3,8 @@ import { useState } from "react";
 import React from "react";
 import Nav from "./components/Nav.jsx";
 import Home from "./components/Home.jsx";
-
 import Footer from "./components/Footer.jsx";
+import Dialog from "./components/dialog.jsx";
 import "./App.css";
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
       <Nav />
       <Home />
       <Footer />
+      <Dialog />
     </>
   );
 }

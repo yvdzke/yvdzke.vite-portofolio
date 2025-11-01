@@ -1,20 +1,39 @@
 import React, { useState } from "react";
 import "./styles/Nav.css";
+import DialogBox from "./DialogBox";
+
 function Nav() {
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [dialogContent, setDialogContent] = useState("");
+
+  const openDialog = (type) => {
+    setDialogContent(type);
+    setIsDialogOpen(true);
+  };
+
   return (
     <>
       <nav className="nav">
         <div className="logo">KE</div>
         <ul className="nav-links">
           <li>
-            <a href="#home">Home</a>
+            <button className="nav-btn" onClick={() => openDialog("home")}>
+              Home
+            </button>
           </li>
-          <li></li>
           <li>
-            <a href="#projects">Projects</a>
+            <button className="nav-btn" onClick={() => openDialog("projects")}>
+              Projects
+            </button>
           </li>
         </ul>
       </nav>
+
+      <DialogBox
+        isOpen={isDialogOpen}
+        type={dialogContent}
+        onClose={() => setIsDialogOpen(false)}
+      />
     </>
   );
 }

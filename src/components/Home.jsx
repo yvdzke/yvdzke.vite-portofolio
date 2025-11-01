@@ -9,6 +9,16 @@ function Home() {
   return (
     <section id="Home" ref={ref} className="Home fade-section">
       <div className="Home-content">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/7JhjnxhO7YY?si=W_T76qv11D3-iQEF"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
         <h1>The code is like a joke. If it needs comment, it's no good.</h1>
         <p>
           Graduated Full-Stack Web Developer bootcamp program from harisenin.com
