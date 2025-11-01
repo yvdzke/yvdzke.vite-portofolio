@@ -43,3 +43,16 @@
 .nav-links a:hover {
   color: #ffffff;
 }
+
+.nav-btn {
+  background: none;
+  border: none;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-btn:hover {
+  color: #00bcd4;
+}

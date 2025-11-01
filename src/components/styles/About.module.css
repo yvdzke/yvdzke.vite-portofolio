@@ -1,0 +1,50 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #101820;
+  color: #fff;
+  padding: 32px;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  position: relative;
+  animation: fadeIn 0.3s ease;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: transparent;
+  color: #00bcd4;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.modal span {
+  color: #00bcd4;
+  font-weight: bold;
+}
+
+.modal ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.modal li {
+  margin: 6px 0;
+  color: #00bcd4;
+}
+
+/* tech*/
